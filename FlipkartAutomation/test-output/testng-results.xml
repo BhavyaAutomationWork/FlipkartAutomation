@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Function : initialization.  Test Base initialization success]]>
+    </line>
+    <line>
+      <![CDATA[Page Load Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Login Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Test : LoginTOApplication . Execution completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Search Result displayed correctly]]>
+    </line>
+    <line>
+      <![CDATA[item Added to card successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test : perfromSearchItem . Execution completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Function : FillPaymentDetails. Payment details filled successfully]]>
+    </line>
+    <line>
+      <![CDATA[payment validation Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Test : perfromPayment . Execution completed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-02-14T12:42:49Z" name="Suite" finished-at="2021-02-14T12:43:21Z" duration-ms="32285">
+    <groups>
+    </groups>
+    <test started-at="2021-02-14T12:42:49Z" name="Test" finished-at="2021-02-14T12:43:21Z" duration-ms="32285">
+      <class name="com.atuomation.testcase.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.atuomation.testcase.HomePageTest@2e222612]" started-at="2021-02-14T12:42:59Z" name="setUp" finished-at="2021-02-14T12:42:59Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="perfromSearchItem()[pri:0, instance:com.atuomation.testcase.HomePageTest@2e222612]" started-at="2021-02-14T12:42:59Z" name="perfromSearchItem" finished-at="2021-02-14T12:43:15Z" duration-ms="16036" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Search Result displayed correctly]]>
+            </line>
+            <line>
+              <![CDATA[item Added to card successfully]]>
+            </line>
+            <line>
+              <![CDATA[Test : perfromSearchItem . Execution completed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- perfromSearchItem -->
+      </class> <!-- com.atuomation.testcase.HomePageTest -->
+      <class name="com.atuomation.testcase.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.atuomation.testcase.LoginPageTest@3246fb96]" started-at="2021-02-14T12:42:49Z" name="setUp" finished-at="2021-02-14T12:42:53Z" duration-ms="4267" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Function : initialization.  Test Base initialization success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginTOApplication()[pri:0, instance:com.atuomation.testcase.LoginPageTest@3246fb96]" started-at="2021-02-14T12:42:53Z" name="LoginTOApplication" finished-at="2021-02-14T12:42:59Z" duration-ms="5710" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Page Load Successfull]]>
+            </line>
+            <line>
+              <![CDATA[Login Successfull]]>
+            </line>
+            <line>
+              <![CDATA[Test : LoginTOApplication . Execution completed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTOApplication -->
+      </class> <!-- com.atuomation.testcase.LoginPageTest -->
+      <class name="com.atuomation.testcase.PaymentPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.atuomation.testcase.PaymentPageTest@61386958]" started-at="2021-02-14T12:43:15Z" name="setUp" finished-at="2021-02-14T12:43:15Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="perfromPayment()[pri:0, instance:com.atuomation.testcase.PaymentPageTest@61386958]" started-at="2021-02-14T12:43:15Z" name="perfromPayment" finished-at="2021-02-14T12:43:21Z" duration-ms="6205" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Function : FillPaymentDetails. Payment details filled successfully]]>
+            </line>
+            <line>
+              <![CDATA[payment validation Successfull]]>
+            </line>
+            <line>
+              <![CDATA[Test : perfromPayment . Execution completed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- perfromPayment -->
+      </class> <!-- com.atuomation.testcase.PaymentPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
